@@ -20,7 +20,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 public class WeatherAPI {
     private static final String TAG = "WeatherAPI";
-    private final String apikey = "61d507db57724f0ebeb74725231410";
+    private final String apikey = "api_key";
     private final String firsturl = "http://api.weatherapi.com/v1/forecast.json?key=";
     private final String secondurl = "&days=2&aqi=no&alerts=no";
     //private String city_name;
