@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">weather_app_ver2</string>
+    <string name="dont_have_account_signup">Don\'t have an account ? <b>Sign Up</b></string>
+    <string name="already_have_account">Already have an account ? <b>Login</b></string>
+    <string-array name="spinner_hour">
+        <item>Now</item>
+        <item>1 hour later</item>
+        <item>2 hour later</item>
+        <item>3 hour later</item>
+        <item>4 hour later</item>
+        <item>5 hour later</item>
+        <item>6 hour later</item>
+        <item>7 hour later</item>
+        <item>8 hour later</item>
+        <item>9 hour later</item>
+        <item>10 hour later</item>
+        <item>11 hour later</item>
+        <item>12 hour later</item>
+        <item>13 hour later</item>
+        <item>14 hour later</item>
+        <item>15 hour later</item>
+        <item>16 hour later</item>
+        <item>17 hour later</item>
+        <item>18 hour later</item>
+        <item>19 hour later</item>
+        <item>20 hour later</item>
+        <item>21 hour later</item>
+        <item>22 hour later</item>
+        <item>23 hour later</item>
+        <item>24 hour later</item>
+    </string-array>
+</resources>

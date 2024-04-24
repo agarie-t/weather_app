@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout_dialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp">
+    <RelativeLayout
+        android:id="@+id/layout_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_background">
+        <TextView
+            android:id="@+id/error_title"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Error"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:background="@drawable/error_dialog_background"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_error_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/error_title"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="Check your inputs"/>
+
+        <Button
+            android:id="@+id/bt_error_ok"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/tv_error_message"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            app:backgroundTint="@color/red"
+            android:text="OK"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
